@@ -1,1 +1,5 @@
-console.log('hello cory')
+const displayValue = document.getElementById('display').innerText;
+
+
+
+
