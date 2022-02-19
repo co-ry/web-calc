@@ -17,6 +17,7 @@ body{
 }
 
 #container {
+    margin-top: 10em;
     background-color: bisque;
     min-width: 18em;
     min-height: 25em;
@@ -37,7 +38,7 @@ body{
     justify-content: center;
     background-color: cornflowerblue;
     flex-grow: 1;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .orange-row{
