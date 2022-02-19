@@ -9,35 +9,37 @@
     <title>Calculator</title>
 </head>
 <body>
-    <div>Display</div>
-    <div>
-        <div class="clear">Clear</div>
-        <div class="neg">-/+</div>
-        <div class="percent">%</div>
-        <div class="divide">/</div>
-    </div>
-    <div>
-        <div class="seven">7</div>
-        <div class="eight">8</div>
-        <div class="nine">9</div>
-        <div class="multiply">*</div>
-    </div>
-    <div>
-        <div class="four">4</div>
-        <div class="five">5</div>
-        <div class="six">6</div>
-        <div class="minus">-</div>
-    </div>
-    <div>
-        <div class="one">1</div>
-        <div class="two">2</div>
-        <div class="three">3</div>
-        <div class="plus">+</div>
-    </div>
-    <div>
-        <div class="zero">0</div>
-        <div class="decimal">.</div>
-        <div class="equals">=</div>
+    <div id="container">
+        <div id="display" class="display">123456789.0</div>
+        <div class="btn-row">
+            <div class="btn" id="clear">Clear</div>
+            <div class="btn" id="neg">-/+</div>
+            <div class="btn" id="percent">%</div>
+            <div class="orange-row" id="divide">/</div>
+        </div class="btn-row">
+        <div class="btn-row">
+            <div class="btn" class="number" id="seven">7</div>
+            <div class="btn" class="number" id="eight">8</div>
+            <div class="btn" class="number" id="nine">9</div>
+            <div class="orange-row" id="multiply">*</div>
+        </div>
+        <div class="btn-row">
+            <div class="btn" class="number" id="four">4</div>
+            <div class="btn" class="number" id="five">5</div>
+            <div class="btn" class="number" id="six">6</div>
+            <div class="orange-row" id="minus">-</div>
+        </div>
+        <div class="btn-row">
+            <div class="btn" class="number" id="one">1</div>
+            <div class="btn" class="number" id="two">2</div>
+            <div class="btn" class="number" id="three">3</div>
+            <div class="orange-row" id="plus">+</div>
+        </div>
+        <div class="btn-row">
+            <div class="btn" id="zero">0</div>
+            <div class="btn" id="decimal">.</div>
+            <div class="orange-row" id="equals">=</div>
+        </div>
     </div>
 </body>
 </html>
